@@ -10,6 +10,7 @@
        echo "<h1 style='color:red'>  W1-poomin sawatdee-bit2/3 No.06 </h1>";
     ?>
 
+   <a href="while.php">while loop</a>
      <form action="">
         <label for="">เลขแม่สูตรคูณ</label> <br>
         <input type="number" name="num" id="">
@@ -19,13 +20,14 @@
      <?php
       if (isset($_GET["num"])){
          $num = $_GET["num"];
-
+      
          echo "<h2>สูตรคูณแม่" .$num . "</h2>";
 
          for($i = 1; $i<= 12;$i++){
-            echo $i. "<br>";
+            echo $num."x". $i. "=".$num * $i ."<br>";
          }
       }
+
      ?>
 
 </body>
