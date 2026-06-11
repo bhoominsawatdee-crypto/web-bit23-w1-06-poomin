@@ -9,7 +9,7 @@
      body{
          font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
             background-color: #4dba9d;
-            color:green;
+            color:yellow;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -17,6 +17,7 @@
             padding: 48px 20px 64px;
           
         }
+
     </style>
 </head>
 <body>
