@@ -10,9 +10,9 @@
         :root {
     --red:        #2196f3;        /* สีฟ้าหลัก */
     --red-dark:   #1565c0;        /* ฟ้าเข้มตอน hover */
-    --red-dim:    rgba(33, 150, 243, 0.12);   /* glow บาง ๆ */
-    --red-border: rgba(33, 150, 243, 0.35);   /* ขอบฟ้า */
-    --bg:         #0a0e17;        /* พื้นหลังน้ำเงินเกือบดำ */
+    --red-dim:    rgba(33, 243, 121, 0.12);   /* glow บาง ๆ */
+    --red-border: rgba(33, 58, 243, 0.35);   /* ขอบฟ้า */
+    --bg:         #a26210;        /* พื้นหลังน้ำเงินเกือบดำ */
     --surface:    #111827;        /* card/form */
     --border:     #1e2d40;        /* เส้นขอบ */
     --text:       #e8f1ff;        /* ขาวอมฟ้า */
@@ -23,7 +23,7 @@
 
         body {
             font-family: 'Sarabun', sans-serif;
-            background-color: var(--bg);
+            background-color: #cd5eb1;
             color: var(--text);
             min-height: 100vh;
             display: flex;
@@ -134,7 +134,7 @@
         h2 {
             font-family: 'IBM Plex Mono', monospace;
             font-size: 1rem;
-            color: var(--red);
+            color:var(--red);
             letter-spacing: 0.05em;
             margin-bottom: 16px;
             text-align: left;
@@ -163,7 +163,7 @@
         echo " <h1 style='color:blue'> w1 - Poomin sawatdee BIT2/3 No.6 </h1> ";
     ?>
 
-    <a href="index.php">INDEX LOOP</a>
+    <a href="index.php">for loop</a>
 
     <form action="">
         <label for="">เลขเเม่สูตรคูณ</label> <br>
