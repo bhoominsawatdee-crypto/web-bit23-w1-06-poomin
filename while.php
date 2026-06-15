@@ -179,15 +179,11 @@
             echo "<div class='result-block'>";
 
             // FIXED: Added the multiplication math inside the loop
-            for($i = 1; $i <= 12; $i++){
-                $result = $num * $i;
-                $highlight = ($i % 2 == 0) ? "style='background:#1e1e1e;'" : "";
-                echo "<div class='row' $highlight>"
-                   . "<span class='eq'>" . $num . " × " . $i . "</span>"
-                   . "<span class='sep'>=</span>"
-                   . "<span class='ans'>" . $result . "</span>"
-                   . "</div>";
-            }
+            $i = 1;
+            while($i <=12){
+                echo "$num x Si=".($sum * $i)."<br>"; 
+                $i++; 
+         }
 
             echo "</div>";
         }
